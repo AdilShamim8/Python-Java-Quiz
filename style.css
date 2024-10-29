@@ -1,0 +1,77 @@
+/* Basic container styling for iOS-like appearance */
+body {
+    background-color: #fef3f7; /* Light pink background for a soft look */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #ff8fb1; /* Sky pink heading color */
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Styling each quiz item */
+.quiz-item {
+    margin-bottom: 15px;
+}
+
+.options label {
+    display: block;
+    background-color: #ffe4ec; /* Light pink option background */
+    color: #333;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options label:hover {
+    background-color: #ffd1e1; /* Darker pink for hover */
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button styling for iOS-like look */
+button {
+    background-color: #ff8fb1; /* Sky pink */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff6f98; /* Darker sky pink for hover */
+}
+
+/* Result styling */
+#result {
+    padding: 15px;
+    background-color: #eaf8f3; /* Soft pastel green for positive feedback */
+    color: #3a5a5f;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
