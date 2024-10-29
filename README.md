@@ -44,6 +44,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or feedback, feel free to reach out at adilshamim696@gmail.com]. 
+For any questions or feedback, feel free to reach out at adilshamim696@gmail.com
 
 Happy quizzing! Improve your skills and have fun with our Python & Java quizzes!
